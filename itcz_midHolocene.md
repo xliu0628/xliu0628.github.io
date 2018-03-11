@@ -2,6 +2,10 @@
 
 ### Introduction
 This project studies the tropical precipitation in the mid-Holocene and its relationship to cross-equatorial atmospheric and oceanic heat transport, using data from 12 CMIP5 coupled models and ECHAM4.6 model. A preliminary look of the relationship shows a contradicting result in CMIP5 models and ECHAM4.6. ```We hypothsize that the difference is because including a full dynamic ocean rather than a slab ocean changed the energy into the atmosphere. ```
+<img src="https://github.com/xliu0628/xliu0628.github.io/blob/master/photos/CROPPED-IMG_3%20(1).jpg" align="center" width="100" >
+
+
+
 ### Methods
 #### 1. Relationship between tropical precipitation and cross-equatorial heat transport
 Energetic framework suggests that the mean ITCZ is closely linked to the cross-equatorial energy transport by the atmosphere, with a northward displacement of the mean ITCZ corresponding to a southward atmospheric energy transport. 
