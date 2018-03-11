@@ -3,7 +3,10 @@
 ### Introduction
 This project studies the tropical precipitation in the mid-Holocene and its relationship to cross-equatorial atmospheric and oceanic heat transport, using the CMIP5 data and ECHAM4.6 model
 ### Methods
-
+#### 1. Relationship between ITCZ and cross-equatorial heat transport
+    1. calculation of AHT, 
+    2. Reg between AHT and ITCZ
+#### Calculation of 
 ### Analysis and Code
 
 ### Conclusion
