@@ -24,27 +24,11 @@ In equilibrium, changes in the cross-equatorial AHT are related to changes in th
 show the figure
 ```
 ### 3. Change in cross-equatorial oceanic heat transport
-The excessive energy in the Northern Hemisphere suggests a northward cross-equatorial ocean transport, which is supported by a direct calculation of the ocean heat transport across the equator. We use the monthly climatology of y and T to calculate DOHT(EQ), neglecting the contribution by submonthly covarying anomalies associated with natural variability. The cross-equatorial ocean heat transport caculated this way, however, are close to the exact answer, as shown by the three models that provide the OHT calculated at model grid and at each timestep. 
+The excessive energy in the Northern Hemisphere suggests a northward cross-equatorial ocean transport, which is supported by a direct calculation of the ocean heat transport across the equator. We use the monthly climatology of y and T to calculate DOHT(EQ), neglecting the contribution by submonthly covarying anomalies associated with natural variability. The cross-equatorial ocean heat transport caculated this way, however, are close to the exact answer, as shown by the four models that provide the OHT calculated at model grid and at each timestep. 
 ```
 show the code for OHT calculation
 ```
-We future decompose the change in OHT into a dynamic and a thermodynamic contribution, and into contribution from the Atlantic and contribution from the Indo-Pacific. It is clear that 
-
-    1. calculation of AHT, 
-    2. Reg between AHT and ITCZ
-#### Calculation of 
-### Analysis and Code
+We future decompose the change in OHT into a dynamic and a thermodynamic contribution, and into contribution from the Atlantic and contribution from the Indo-Pacific. It is clear that change in the OHT is dominated by change in the ocean circulation in the Pacific. 
 
 ### Conclusion
-
-
-
-```markdown
-Syntax highlighted code block
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+The response of the ocean is the key ocean for the northward ITCZ shift during the mid-Holocene. The monsoonal atmospheric response drives spins up the tropical Pacific gyre. Acting on the zonal thermal asymmetry, this change in ocean circulation enhances the northward cross-equatorial heat transport, shifting the ITCZ northward. 
