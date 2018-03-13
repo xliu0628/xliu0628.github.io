@@ -7,7 +7,7 @@ This project studies the tropical precipitation in the mid-Holocene and its rela
 
 
 ### Methods
-#### Preprocessing of the data (interpolation)
+#### Preprocessing of the data (what kind of interpolation method I used)
 #### 1. Relationship between tropical precipitation and cross-equatorial heat transport
 Energetic framework suggests that the mean ITCZ is closely linked to the cross-equatorial energy transport by the atmosphere, with a northward displacement of the mean ITCZ corresponding to a southward atmospheric energy transport. 
 
