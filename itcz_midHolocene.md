@@ -1,9 +1,8 @@
 ## Tropical Precipiation and cross-equatorial ocean heat during the mid-Holocene
 
 ### 1 Introduction
-This project studies the tropical precipitation in the mid-Holocene and its relationship to cross-equatorial atmospheric and oceanic heat transport, using data from 12 CMIP5 coupled models and ECHAM4.6 model. A preliminary look of the relationship shows a contradicting result in CMIP5 models and ECHAM4.6. This motivates us to hypothesize the important role of ocean, the major difference between CMIP5 models and TCHAM4.6. ```We hypothsize that the difference is because including a full dynamic ocean rather than a slab ocean changed the energy into the atmosphere. ```
+This project studies the tropical precipitation in the mid-Holocene and its relationship to cross-equatorial atmospheric and oceanic heat transport, using data from 12 CMIP5 coupled models and ECHAM4.6 model. A preliminary look of the relationship shows a contradicting result in CMIP5 models and ECHAM4.6. This motivates us to hypothesize that the difference is because including a full dynamic ocean rather than a slab ocean changed the energy into the atmosphere.
 <img src="https://github.com/xliu0628/xliu0628.github.io/blob/master/photos/xx.jpg" align="center" width="100" >
-
 
 ### 2 Data
 We use the output of preindustrial and mid-Holocene simulations from PMIP3. All the data are regridded into the same grid using linear regression before the analysis. 
