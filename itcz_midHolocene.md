@@ -1,15 +1,20 @@
 ## Tropical Precipiation and cross-equatorial ocean heat during the mid-Holocene
 
-### Introduction
-This project studies the tropical precipitation in the mid-Holocene and its relationship to cross-equatorial atmospheric and oceanic heat transport, using data from 12 CMIP5 coupled models and ECHAM4.6 model. A preliminary look of the relationship shows a contradicting result in CMIP5 models and ECHAM4.6. ```We hypothsize that the difference is because including a full dynamic ocean rather than a slab ocean changed the energy into the atmosphere. ```
+### 1 Introduction
+This project studies the tropical precipitation in the mid-Holocene and its relationship to cross-equatorial atmospheric and oceanic heat transport, using data from 12 CMIP5 coupled models and ECHAM4.6 model. A preliminary look of the relationship shows a contradicting result in CMIP5 models and ECHAM4.6. This motivates us to hypothesize the important role of ocean, the major difference between CMIP5 models and TCHAM4.6. ```We hypothsize that the difference is because including a full dynamic ocean rather than a slab ocean changed the energy into the atmosphere. ```
 <img src="https://github.com/xliu0628/xliu0628.github.io/blob/master/photos/CROPPED-IMG_3%20(1).jpg" align="center" width="100" >
 
 
 
-### Methods
-#### Preprocessing of the data (what kind of interpolation method I used)
-#### 1. Relationship between tropical precipitation and cross-equatorial heat transport
-Energetic framework suggests that the mean ITCZ is closely linked to the cross-equatorial energy transport by the atmosphere, with a northward displacement of the mean ITCZ corresponding to a southward atmospheric energy transport. 
+### 2 Data and Methods
+#### Preprocessing of the data
+code for doing bilinear interpolation: 
+    cdo selgrid $inputfile grid.nc   ## input 1
+    cdo remapbil grid.nc $outputfile  ## input 'r144x72'
+
+### 3 Results
+#### 3.1 Relationship between tropical precipitation and cross-equatorial heat transport
+Energetic framework suggests that the mean ITCZ is closely linked to the cross-equatorial energy transport by the atmosphere, with a northward displacement of the mean ITCZ corresponding to a southward atmospheric energy transport (e.g. Frierson and Hwang 2012). 
 
 The ITCZ is quantified using the precipitation centroid is defined as the latitude that delineates an equal area-averaged precipitation between 20N and 20S (Frierson and Hwang 2012; Donohoe et al. 2013).
 ```
@@ -23,13 +28,13 @@ The relationship between ITCZ and AHT is shown using linear regression:
 ```
 code and figure
 ```
-#### 2. Decomposing the change in AHT into change in energy from TOA and change in energy from SFC
+#### 3.2 Decomposing the change in AHT into change in energy from TOA and change in energy from SFC
 In equilibrium, changes in the cross-equatorial AHT are related to changes in the hemispheric asymmetry in energy entering the atmosphere from TOA and from the surface, respectively. Decomposing the AHT(EQ) into these two components shows that in almost every model (9 out of 12 models), the change in AHT(EQ) is predominantly due to the change in hemispheric asymmetry in energy entering the atmosphere from surface. 
 ```
 show the figure
 ```
-#### 3. Change in cross-equatorial oceanic heat transport
-The excessive energy in the Northern Hemisphere suggests a northward cross-equatorial ocean transport, which is supported by a direct calculation of the ocean heat transport across the equator. We use the monthly climatology of y and T to calculate DOHT(EQ), neglecting the contribution by submonthly covarying anomalies associated with natural variability. The cross-equatorial ocean heat transport caculated this way, however, are close to the exact answer, as shown by the four models that provide the OHT calculated at model grid and at each timestep. 
+#### 3.3 Change in cross-equatorial oceanic heat transport
+The excessive energy in the Northern Hemisphere suggests a northward cross-equatorial ocean transport, which is supported by a direct calculation of the ocean heat transport across the equator. We use the monthly climatology of v(meridional ocean current) and T (ocean temperature) to calculate DOHT(EQ), neglecting the contribution by submonthly covarying anomalies associated with natural variability. The cross-equatorial ocean heat transport caculated this way, however, are close to the exact answer, as shown by the four models that provide the OHT calculated at model grid and at each timestep. 
 ```
 show the code for OHT calculation
 ```
