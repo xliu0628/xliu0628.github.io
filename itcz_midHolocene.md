@@ -34,8 +34,10 @@ code for calculating the AHT
 ```
 The relationship between ITCZ and AHT is shown using linear regression: 
 ```
-code and figure
+import scipy.stats as stats
+reg = stats.linregress(nino34_stded,uwnd[:,ilev,ilat])
 ```
+<img src="https://github.com/xliu0628/xliu0628.github.io/blob/master/photos/xx.jpg" align="center" width="100" >
 #### 3.2 Decomposing the change in AHT into change in energy from TOA and change in energy from SFC
 In equilibrium, changes in the cross-equatorial AHT are related to changes in the hemispheric asymmetry in energy entering the atmosphere from TOA and from the surface, respectively. Decomposing the AHT(EQ) into these two components shows that in almost every model (9 out of 12 models), the change in AHT(EQ) is predominantly due to the change in hemispheric asymmetry in energy entering the atmosphere from surface. 
 ```
